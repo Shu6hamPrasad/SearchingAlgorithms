@@ -30,6 +30,6 @@ int main()
     int sortedArray[] = {0, 1, 2, 3, 5, 8};
     int min = 0;
     int max = sizeof(sortedArray) / sizeof(sortedArray[0]);
-    cout << binarySearch(sortedArray, min, max, 8);
+    cout << binarySearch(sortedArray, min, max, 6);
     return 0;
 }
